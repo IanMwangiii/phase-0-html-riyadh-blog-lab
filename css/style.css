@@ -3,10 +3,13 @@
 html, body {
   height: 100%;
   min-height: 100%;
+  font-size: medium;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: #000;
 }
 
 body {
-  background: url(../images/backgrounds/architecture.jpg) center no-repeat;
+  background-color:#ff6b6b;
   background-size: cover;
   background-attachment: fixed;
   font-family: Helvetica, Arial, sans-serif;
@@ -26,7 +29,7 @@ body {
 
 h1, h2 {
   font-family: 'Gabriela', serif;
-  color: #fff;
+  color:black;
 }
 
 h1 {
@@ -83,4 +86,3 @@ a:hover {
   .wrapper {
     width: 95%;
   }
-}
